@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: "Oswald", sans-serif;
+    
+    }
+
+
+
+    h1{
+
+        position: absolute;
+        width: 32vw;
+        color: #5D5D7D;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 5vw;
+        line-height: 6vw;
+        margin-top: 18vw;
+        margin-left: 10vw;
+
+
+    }
+
+    h2{
+
+        color: #5D5D7D;
+        mix-blend-mode: normal;
+        opacity: 0.6;
+        width: 36vw;
+        position: absolute;
+        margin-top: 31vw;
+        margin-left: 9.8vw;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.5vw;
+        line-height: 3.5vh;
+    }
+
+
+    
+
+    .get{
+
+        color: #FFFFFF;
+        position: absolute;
+        margin-top: 84vh;
+        margin-left: 10vw;
+        background: #9499EA;
+        box-shadow: 0px 10px 24px rgb(148 153 234 / 10%);
+        border-radius: 30vw;
+        width: 15vw;
+        height: 6vh;
+        border: none;
+        font-size: 2.3vh;
+        cursor:pointer;
+
+
+
+    }
+
+    .woman{
+
+        height: 40vh;
+        position: absolute;
+        margin-top: 25vw;
+        margin-left: 50vw;
+
+    }        
+        .rigth-box{
+        display: inline-block;
+        position: absolute;
+        margin-left:58.75vw;
+        height: 100vh;    
+        width: 90vh;
+        background: rgba(93,93,125,0.16);
+        mix-blend-mode: normal;
+       
+    }
+
+
+            .phone{
+
+
+                height: 75vh;
+                position: absolute;
+                margin-top: 10vw;
+                margin-left: 61vw;
+            
+
+            }
+
+        
+                    .letters{
+
+                        position:absolute;
+                        margin-left: 66vw;
+
+                     }
+
+
+                    .links{
+
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 31px;
+                        line-height: 6vw;
+                        color: #5D5D7D;
+                        position: static;
+                        margin-right: 2vw;
+                        cursor:pointer;
+                    }
+
+                         
+
+@media screen and (max-width:800px){
+    
+        .phone{
+
+            position: absolute;
+            left: -14.92%;
+            right: 0.53%;
+            top: 47.24%;
+            bottom: 5.91%;
+            background: #E5E8F5;
+            height: 46%;
+
+
+        }
+
+
+
+        .rigth-box{
+            display: inline-block;
+            position: absolute;
+            margin-top: 89vw;
+            height: 50vh;
+            width: 100vw;
+            background: rgba(93,93,125,0.16);
+            mix-blend-mode: normal;
+            margin-left: 0vw;
+           
+        }
+        h1{
+            
+            position: absolute;
+            text-align: center;
+            width: 54vw;
+            font-size: 9vw;
+            line-height: 12vw;
+            margin-left: 22vw;
+            margin-top: 4vh;
+
+        }
+
+
+        .woman{
+
+            height: 36vh;
+            margin-top: 62vh;
+            margin-left: 17vw;
+        
+
+        }
+
+
+        .get{
+
+
+            height: 10vw;
+            width: 49vw;
+            margin-top: 38vh;
+            margin-left: 27vw;
+
+        }
+
+        h2{
+
+            width: 73vw;
+            font-size: 4vw;
+            line-height: 5vw;
+            text-align: center;
+            margin-top: 21vh;
+            margin-left: 15vw;
+        }
+
+
+
+        .letters{
+            display: none;
+
+        }
+
+        .links{
+
+             display: none;
+        }
+    }
